@@ -10,7 +10,6 @@ public class Main {
         vehicleList.add(car1);
         vehicleList.add(drone1);
         vehicleList.add(flyingCar);
-        // You can now iterate through the list or perform other operations
         for (Vehicle vehicle : vehicleList) {
             System.out.println("Name: " + vehicle.getName() + ", Type: " + vehicle.getClass().getSimpleName());
         }
